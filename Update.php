@@ -1,6 +1,6 @@
 <?php
-include 'Database.php';
-include 'User.php';
+include 'database.php';
+include 'user.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve the data from the POST request

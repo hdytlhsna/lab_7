@@ -1,7 +1,7 @@
 <?php
+include 'database.php';
+include 'user.php';
 
-include 'Database.php';
-include 'User.php';
 
 if (isset($_POST['submit']) && ($_SERVER['REQUEST_METHOD'] == 'POST')) {
     // Create database connection
@@ -21,7 +21,7 @@ if (isset($_POST['submit']) && ($_SERVER['REQUEST_METHOD'] == 'POST')) {
         if ($userDetails && password_verify($password, $userDetails['password'])) {
             echo 'Login Successful';
         } else {
-            echo 'Login Failed';
+            echo 'Invalid username or password, try <a href="login.php">Login</a> again.';
         }
     } else {
         echo 'Please fill in all required fields.';

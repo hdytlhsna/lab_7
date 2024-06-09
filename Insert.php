@@ -1,6 +1,6 @@
 <?php
-include 'Database.php';
-include 'User.php';
+include 'database.php';
+include 'user.php';
 
 // Create an instance of the Database class and get the connection
 $database = new Database();
