@@ -17,7 +17,7 @@ $result = $user->getUsers();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q5</title>
+    <title>Read</title>
     <style>
         body{
         font-family: 'Arial', sans-serif;
